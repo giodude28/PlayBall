@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/coming"
+            android:enabled="true"
+            android:title="UPCOMING"
+            android:icon="@drawable/ic_baseline_fiber_new_24"
+            />
+
+        <item
+            android:id="@+id/previous"
+            android:enabled="true"
+            android:title="PREVIOUS"
+            android:icon="@drawable/ic_rewind_button"
+            />
+
+<!--
+        <item
+            android:id="@+id/video"
+            android:enabled="true"
+            android:title="LIVE"
+            android:icon="@drawable/ic_baseline"
+             />-->
+
+</menu>
+
+<!--android:icon="@drawable/ic_action_recents"-->

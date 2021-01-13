@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.playball">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/aa"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_config"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label"
+        tools:targetApi="n">
+        <activity android:name="com.example.playball.MainActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.playball.PreviousList"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.playball.EventDetails" />
+        <activity android:name="com.example.playball.EventList"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.playball.button" />
+        <activity android:name="com.example.playball.MatchDetails" />
+        <activity android:name="com.example.playball.linktab" />
+        <activity android:name="com.example.playball.infoteam"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.example.playball.stadiumtab" />
+        <activity android:name="com.example.playball.Home" />
+        <activity android:name="com.example.playball.teamtab" />
+        <activity android:name="com.example.playball.matchview"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.playball.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

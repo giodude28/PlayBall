@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:layout_marginTop="55dp">
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PREVIOUS MATCHES"
+        android:fontFamily="@font/bungeeregular"
+    android:gravity="center"
+    android:textStyle="bold"
+        android:textColor="@color/search"
+    android:textSize="20dp"
+    android:layout_marginBottom="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycleviews2"/>
+    </RelativeLayout>
+</RelativeLayout>
