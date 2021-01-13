@@ -102,6 +102,15 @@ public class teamtab extends AppCompatActivity {
 //        System.out.println(llvpics.toString());
 //        System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" + llvpics.size());
 
+
+
+
+
+
+
+
+
+
         carousel.setImageListener(new ImageListener() {
             @Override
             public void setImageForPosition(int position, ImageView imageView) {
